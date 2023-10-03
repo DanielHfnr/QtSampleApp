@@ -42,7 +42,7 @@ git clone https://github.com/DanielHfnr/QtSampleApp.git
 Build the base image that contains QT 6.5.2:
 
 ```build base image
-cd QTSampleApp/.decvontainer
+cd QtSampleApp/.decvontainer
 ./build_base_image.sh
 ```
 
@@ -51,7 +51,7 @@ This will take same time because it compiles QT.
 Open the container in VSCode:
 
 ```OpenVSCode
-code QTSampleApp
+code QtSampleApp
 ```
 
 Press the button that open with "Reopen in container" or press CTRL+SHIFT+P and search for "Dev Containers: Reopen in Container"
