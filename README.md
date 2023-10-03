@@ -56,11 +56,17 @@ code QtSampleApp
 
 Press the button that open with "Reopen in container" or press CTRL+SHIFT+P and search for "Dev Containers: Reopen in Container"
 
+## Building
+
 Build the sample app from project folder:
 
 ```Build
 cmake -S src -B build && cmake --build build
 ```
+
+Afterwards you can run the application from the `build` folder `./QtSampleApp`.
+
+## Debugging
 
 To build in debug mode run:
 
@@ -73,3 +79,13 @@ Afterwards you can debug the application. Set a breakpoint wherever you want and
 Press the "Launch QtSampleApp" button and the debugger starts.
 
 ![DebugApplication](docs/DebugQtApp.png)
+
+## Packaging (export the binary and all libraries)
+
+To create a package with the application binary and all needed libraries and plugins, go to the `build` folder and run `cpack` to create a tarball and `cpack -G DEB` to create a debian package that can be installed with `sudo dpkg -i QtSampleApp-1.0.0-Linux.deb.`
+
+## Editing a GUI
+
+You can simply launch the qtdesigner by typing `designer` in the command line from within VSCode. 
+
+![QtDesigner](docs/QtDesigner.png)
