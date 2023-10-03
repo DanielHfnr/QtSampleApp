@@ -11,6 +11,7 @@ BraceWrapping:
   AfterStruct: true
   AfterEnum: true
   AfterFunction: true
+  AfterNamespace: true
   SplitEmptyFunction: false
   SplitEmptyRecord: false
   SplitEmptyNamespace: false

@@ -2,5 +2,6 @@
     "files.associations": {
         "qmainwindow": "cpp"
     },
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "editor.formatOnSave": true
 }
