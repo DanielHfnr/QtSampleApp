@@ -36,7 +36,7 @@ Follow the steps here to install all prerequisites.
 Clone the repository:
 
 ```clone
-git clone 
+git clone https://github.com/DanielHfnr/QtSampleApp.git
 ```
 
 Build the base image that contains QT 6.5.2:
