@@ -61,3 +61,10 @@ Build the sample app from project folder:
 ```Build
 cmake -S src -B build && cmake --build build
 ```
+
+To build in debug mode run:
+
+```BuildDebug
+cmake -DCMAKE_BUILD_TYPE=Debug -S src -B build && cmake --build build
+```
+
