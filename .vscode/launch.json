@@ -5,7 +5,7 @@
             "type": "cppdbg",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "program": "${workspaceRoot}/build/bin/QtSampleApp",
+            "program": "${workspaceRoot}/build/QtSampleApp",
             "args": [],
             "environment": [
                 {"name": "MALLOC_CHECK_", "value": "2"}
