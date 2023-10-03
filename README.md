@@ -68,3 +68,8 @@ To build in debug mode run:
 cmake -DCMAKE_BUILD_TYPE=Debug -S src -B build && cmake --build build
 ```
 
+Afterwards you can debug the application. Set a breakpoint wherever you want and got to the "Run and Debug" menu in VSCode on the left menu bar. 
+
+Press the "Launch QtSampleApp" button and the debugger starts.
+
+![DebugApplication](docs/DebugQtApp.png)
